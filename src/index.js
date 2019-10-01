@@ -77,36 +77,3 @@ function checkDouble(arrayConfig, str) {
   }
   return a;
 }
-
-
-/*function check(str, bracketsConfig) {
-  while (str) {
-    
-    if (checkConfig(bracketsConfig, str[0])) {
-      let closeBracket = checkConfig(bracketsConfig, str[0]);
-      if (str.indexOf(closeBracket) >= 0) {
-        str = str.replace(str[0], '');
-        str = str.replace(closeBracket, '');
-      }
-      else { 
-        return false;
-      }
-
-    }
-    else {
-        return false;
-    }
-    
-  }
-  if (str.length == 0) {return true}
-}
-function checkConfig(arrayConfig, str) {
-  for (let i = 0; i <= arrayConfig.length - 1; i++) {
-    if (arrayConfig[i][0] == str) {
-      a = arrayConfig[i][1];
-      break;
-    }
-    else { a = false }
-  }
-  return a;
-}*/
